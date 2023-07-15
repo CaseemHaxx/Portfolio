@@ -44,7 +44,7 @@ function new_line(){
   p.setAttribute("class", "path")
   p.textContent = "# user";
   span1.textContent = " in";
-  span2.textContent = " ~/heber-leonard";
+  span2.textContent = " ~/caseem-haxx";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
@@ -79,18 +79,17 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
+    createText("<a href='https://github.com/CaseemHaxx' target='_blank'><i class='fab fa-github white'></i> github.com/CaseemHaxx</a>")
   }
   else if(value === "about me"){
     trueValue(value);
-    createText("Oi, meu nome é Héber ;)")
-    createText("Desenvolvedor atualmente focado em todo o ecossistema Javascript. Utilizando principalmente a stack <span class='blue'>Node, React e React Native </span>por permitir criar aplicações de forma descomplicada e produtiva.")
+    createText("Hi, I am Caseem ;)")
+    createText("I'm currently immersed in learning ethical hacking and digital forensics. In my journey, I've gained valuable experience through platforms like TryHackMe, HackTheBox, and participating in challenges like PicoCTF. These hands-on experiences have provided me with practical knowledge and skills in the field.")
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
-    createText("<a href='https://www.linkedin.com/in/heber-leonard/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/heber-leonard</a>")
-    createText("<a href='https://www.instagram.com/heber_leonard/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/heber_leonard</a>")
+    createText("<a href='https://github.com/CaseemHaxx' target='_blank'><i class='fab fa-github white'></i> github.com/CaseemHaxx</a>")
+    createText("<a href='https://www.linkedin.com/in/muhammad-qaseem/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/CaseemHaxx</a>")
   }
   else if(value === "social"){
     trueValue(value);
